@@ -14,13 +14,13 @@ docker run -itd \
     -c "examples/example-config.json" \
     --start-time "`date +"%Y-%m-%dT%H:%M:%S"`" \
     --end-time "`date -d "+1 days" +"%Y-%m-%dT%H:%M:%S"`" \
-    --nusers 1000000 \
+    --nusers 50000 \
     --growth-rate 10 \
     --userid 1 \
     --kafkaBrokerList localhost:9092 \
     --randomseed 1 \
     --continuous
 
-echo "Started streaming events for 1 Million users..."
+echo "Started streaming events."
 echo "Eventsim is running in detached mode. "
 echo "Run 'docker logs --follow million_events' to see the logs."

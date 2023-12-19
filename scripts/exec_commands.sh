@@ -7,8 +7,8 @@ docker run -itd \
   --oom-kill-disable \
   events:1.0 \
     -c "examples/example-config.json" \
-    --start-time "2022-03-20T10:10:00" \
-    --end-time "2022-03-20T18:00:00" \
+    --start-time "2023-12-18T10:10:00" \
+    --end-time "2023-12-18T18:00:00" \
     --nusers 1500000 \
     --growth-rate 10 \
     --userid 1 \
@@ -24,7 +24,7 @@ docker run -itd \
   --oom-kill-disable \
   events:1.0 \
     -c "examples/alt-example-config.json" \
-    --start-time "2022-03-20T10:10:00" \
+    --start-time "2023-12-18T10:10:00" \
     --end-time "2022-03-20T18:00:00" \
     --nusers 1500000 \
     --growth-rate 9 \
@@ -41,8 +41,8 @@ docker run -itd \
   --oom-kill-disable \
   events:1.0 \
     -c "examples/alt-example-config.json" \
-    --start-time "2022-03-20T08:20:00" \
-    --end-time "2022-03-20T18:00:00" \
+    --start-time "2023-12-18T08:20:00" \
+    --end-time "2023-12-18T18:00:00" \
     --nusers 900000 \
     --growth-rate 12 \
     --userid 6000000 \
@@ -81,8 +81,8 @@ docker run -it \
   --network host \
   events:1.0 \
     -c "examples/example-config.json" \
-    --start-time "2022-03-25T17:40:00" \
-    --end-time "2022-03-25T23:00:00" \
+    --start-time "2023-12-18T17:40:00" \
+    --end-time "2023-12-18T23:00:00" \
     --nusers 1000000 \
     --growth-rate 10 \
     --userid 1 \
