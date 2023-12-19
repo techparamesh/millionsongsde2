@@ -13,7 +13,7 @@ We will setup airflow on docker in a dedicated compute instance. dbt is setup in
 - Clone git repo
 
   ```bash
-  git clone https://github.com/techparamesh/streamify.gitt && \
+  git clone https://github.com/techparamesh/streamify.git && \
   cd streamify
   ```
 - Install anaconda, docker & docker-compose.
