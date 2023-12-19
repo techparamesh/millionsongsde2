@@ -8,7 +8,6 @@ A data pipeline with Kafka, Spark Streaming, dbt, Docker, Airflow, Terraform, GC
 
 
 - Google Cloud Platform. 
-  - [GCP Account and Access Setup](setup/gcp.md)
 - Terraform
   - [Setup Terraform](https://developer.hashicorp.com/terraform/install)
 
@@ -16,7 +15,7 @@ A data pipeline with Kafka, Spark Streaming, dbt, Docker, Airflow, Terraform, GC
 
 
 - Procure infra on GCP with Terraform.
-- (Extra) SSH into your VMs, Forward Ports.
+- SSH into your VMs, Forward Ports.
 - Setup Kafka Compute Instance and start sending messages from Eventsim.
 - Setup Spark Cluster for stream processing.
 - Setup Airflow on Compute Instance to trigger the hourly data pipeline. 
